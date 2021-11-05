@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&family=Ubuntu:wght@400;700&display=swap');
+/* font-family: 'Open Sans', sans-serif;
+   font-family: 'Ubuntu', sans-serif;      */
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    margin: 0;
+}
+
+/* TYPOGRAPHY */
+
+header, header .header-btn {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main {
+    font-family: 'Open Sans', sans-serif;
+}
+
+main .hero {
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+footer {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* HEADER */
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;   
+}
+
+.navbar .navbar-logo-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;   
+}
+
+.navbar .navbar-nav-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.navbar .navbar-nav-box a {
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+.header {
+    min-height: 500px;
+    background-color: #333333;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .title {
+    font-size: 4rem;
+}
+
+.header .header-btn {
+    font-size: 20px;
+    padding: 1.5rem 3rem;
+    border: none;
+    border-radius: 50px;
+    margin-top: 3rem;
+}
+
+/* MAIN */
+
+main {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem auto;
+    gap: 20px;
+}
+
+main .card {
+    flex: 1;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+}
+
+main .card-larger {
+    flex: 2;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+}
+
+main .card-larger .main-img-large {
+height: 292px;
+}
+
+main .card-larger .main-title {
+    margin: 0.5rem 0;
+}
+
+main .card-larger .main-text {
+    margin: 0;
+}
+
+main .card .main-title {
+    margin: 0.5rem 0;
+}
+
+main .card .main-text {
+    margin: 0;
+    margin-bottom: 5rem;
+}
+
+main .hero {
+    margin: 10rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .profile {
+    background-color: #c4c4c4;
+    width: 8.75rem;
+    height: 8.75rem;
+    border-radius: 100%;
+}
+
+main .quote {
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+main .quote-person {
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* FOOTER */
+
+footer {
+    min-width: 1000px;
+    min-height: 450px;
+    background-color: #4f4f4f;
+    color: #ffffff;
+    display: flex;
+    padding: 5rem;
+    gap: 3rem;
+}
+
+footer .footer-nav {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+footer .footer-nav a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+footer .footer-about {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    flex: 1;
+    
+}
+
+footer .footer-social-media {
+    /* border: 1px solid red; */
+    flex: 1;
+    text-align: center;
+}
+
+footer .footer-social-media .footer-social-media-icons img {
+    margin: 0 0.5rem;
+}
